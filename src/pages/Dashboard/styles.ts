@@ -1,0 +1,97 @@
+import styled from 'styled-components';
+import { shade } from 'polished';
+
+// Template literals
+
+export const Title = styled.h1`
+  color: #3a3a3a;
+  max-width: 450px;
+  font-size: 48px;
+  line-height: 56px;
+  margin-top: 80px;
+`;
+
+export const Form = styled.form`
+  margin-top: 40px;
+  max-width: 715px;
+  display: flex;
+  input {
+    flex: 1;
+    height: 70px;
+    padding: 0 24px;
+    border: 0;
+    border-radius: 5px;
+    color: #3a3a3a;
+    &::placeholder {
+      color: #a8a8b3;
+    }
+  }
+  button {
+    width: 240px;
+    height: 70px;
+    background: #04d361;
+    border-radius: 5px;
+    border: 0;
+    color: #fff;
+    font-weight: bold;
+    transition: background 0.2s;
+    &:hover {
+      background: ${shade(0.2, '#04d361')};
+    }
+  }
+  @media (max-width: 500px) {
+    flex-direction: column;
+    input {
+      width: 100%;
+      flex: inherit;
+    }
+    button {
+      width: 100%;
+      margin-top: 8px;
+    }
+  }
+`;
+
+export const GithubUserList = styled.div`
+  margin-top: 80px;
+  max-width: 700px;
+  display: flex;
+  background: #fff;
+  padding: 24px;
+  align-items: center;
+  a {
+    border-radius: 5px;
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    img {
+      width: 64px;
+      height: 64px;
+      border-radius: 50%;
+    }
+    div {
+      margin: 0 16px;
+      strong {
+        font-size: 20px;
+        color: #3d3d4d;
+      }
+      p {
+        font-size: 18px;
+        color: #a8a8b3;
+        margin-top: 4px;
+      }
+    }
+  }
+  > svg {
+    color: #c9c9d4;
+  }
+  button {
+    margin-left: 10px;
+    background: none;
+    border: 0;
+    display: flex;
+    align-items: center;
+  }
+`;
