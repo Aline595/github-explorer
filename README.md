@@ -1,6 +1,5 @@
-![image](https://user-images.githubusercontent.com/56769013/98736283-60674280-2383-11eb-8a52-ab99de24648f.png)
-
-
+![image](https://user-images.githubusercontent.com/56769013/98737009-63aefe00-2384-11eb-8a0e-626148ef584f.png)
+  
 <h3 align="center">
   <a href="#dog-sobre-o-projeto">Sobre</a>&nbsp;|&nbsp;
   <a href="#computer-tecnologias">Tecnologias</a>&nbsp;|&nbsp;
