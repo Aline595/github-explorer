@@ -29,6 +29,7 @@ Aplicação que lista reposiórios do Github
 - Prettier.  
 - ESLint.  
 - Axios.  
+- API Github.  
 
 ## :fire: Como usar
 
