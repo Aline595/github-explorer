@@ -15,7 +15,8 @@ Aplicação que lista reposiórios do Github
 
 ## :camera: Imagens
 
-![image](https://user-images.githubusercontent.com/56769013/98736544-b340fa00-2383-11eb-83f0-a1df6910c468.png)  
+![image](https://user-images.githubusercontent.com/56769013/98736544-b340fa00-2383-11eb-83f0-a1df6910c468.png)    
+![image](https://user-images.githubusercontent.com/56769013/98737979-cc4aaa80-2385-11eb-9e3c-53045281e717.png)
 
 
   
