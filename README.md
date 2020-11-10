@@ -1,46 +1,57 @@
-# Getting Started with Create React App
+![image](https://user-images.githubusercontent.com/56769013/98736283-60674280-2383-11eb-8a52-ab99de24648f.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<h3 align="center">
+  <a href="#dog-sobre-o-projeto">Sobre</a>&nbsp;|&nbsp;
+  <a href="#computer-tecnologias">Tecnologias</a>&nbsp;|&nbsp;
+  <a href="#camera-imagens">Imagens</a>&nbsp;|&nbsp;
+  <a href="#fire-como-usar">Como usar</a>&nbsp;|&nbsp;
+</h3>
 
-In the project directory, you can run:
 
-### `yarn start`
+## :dog: Sobre o projeto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Aplicação que lista reposiórios do Github  
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `yarn test`
+## :camera: Imagens
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![image](https://user-images.githubusercontent.com/56769013/98736544-b340fa00-2383-11eb-83f0-a1df6910c468.png)  
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  
+## :computer: Tecnologias
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- React. 
+- Typescript. 
+- Styled Components.  
+- React Icons.  
+- React Router Dom.  
+- Prettier.  
+- ESLint.  
+- Axios.  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## :fire: Como usar
 
-### `yarn eject`
+### Pré-requisitos
+  - É necessario possuir o Node.js instalado
+  - É preciso ter um gerenciador de pacotes instalado ou NPM ou Yarn
+ 
+### Passo a passo
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1. Fazer o clone deste repositorio :
+````
+$ git clone https://github.com/Aline595/github-explorer.git
+````
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Adicionar as dependências:
+````
+$ yarn install
+````
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+3. Iniciar aplicação:
+````
+$ yarn start
+````
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+OBS: A página sempre fará reload quando atualizado os arquivos.<br />
